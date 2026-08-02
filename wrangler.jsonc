@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sabka-delivery-whatsapp-bot",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "sabka-delivery-whatsapp-bot",
+      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "vars": {
+    "WHATSAPP_API_VERSION": "v23.0",
+    "SABKA_DELIVERY_WEBSITE_URL": "https://sabkadelivery.in"
+  }
+}
